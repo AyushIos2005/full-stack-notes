@@ -4,7 +4,7 @@
 //   PATCH  {BASE}/update/:id     -> { message }  (description only, no note returned)
 //   DELETE {BASE}/relief/:id     -> { message }
 
-export const DEFAULT_API_BASE = "http://localhost:3000";
+export const DEFAULT_API_BASE = "https://full-stack-notes-backend-4akj.onrender.com";
 
 export function mapNote(raw) {
   return {
